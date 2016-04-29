@@ -1,0 +1,247 @@
+@charset "UTF-8";
+body {
+	background-color: #f1f1f1;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-image: url("img/header_bg.jpg");
+	background-repeat: repeat-x;
+	background-position: left top;
+	font-family: sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	color: #777777;
+}
+
+a {
+	color: #FF0000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #222222;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #eeeeee;
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
+
+table, tr, td {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+table#container {
+	width: 100%;
+}
+td#header {
+	height: 202px;
+}
+table#header_big {
+	width: 100%;
+	height: 100%;
+}
+
+table#header_big td#left {
+	background-image: url("img/header_bg1.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+table#header_big td#menu {
+	background-image: url("img/header_bg2.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+table#header_big td#right {
+	background-image: url("img/header_bg3.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+table#header_big td#menu {
+	width: 609px;
+	vertical-align: top;
+	text-align: right;
+}
+table#header_big td#logo {
+	width: 296px;
+	vertical-align: top;
+}
+#bigmenulayer {
+	width: 606px;
+	height: 27px;
+	text-align: left;
+	margin: 96px 0 0 auto;
+}
+#smallmenulayer {
+	width: 606px;
+	height: 22px;
+	text-align: left;
+	margin: 11px 0 0 auto;
+}
+td#maincontent {
+	text-align: center;
+}
+
+
+
+
+td#maincontent table#main {
+	width: 896px;
+	height: 500px;
+	background: white;
+	border: 1px solid #e4e4e4;
+	margin: 0 auto;
+}
+table#main td.cookie {
+	text-align: right;
+	vertical-align: top;
+	padding: 236px 0 0;
+	width: 280px;
+}
+table#main td.sepline {
+	width: 1px;
+	padding: 100px 0 50px;
+	vertical-align: top;
+}
+table#main td.sepline table {
+	width: 1px;
+	background: #dbdbdb;
+	font-size: 1px;
+	height: 370px;
+	margin 0 0 auto;
+}
+table#main td.text {
+	text-align: left;
+	vertical-align: top;
+	padding-bottom: 50px;
+}
+h2 {
+	font-family: sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: bold;
+	color: #666666;
+	padding: 0 50px 0px 22px;
+	margin: 0;
+}
+p {
+	font-family: sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	color: #777777;
+	padding: 0 50px 10px 22px;
+	margin: 0;
+}
+.headtext {
+	height: 128px;
+	padding: 108px 0 6px;
+}
+#footer {
+	height: 100px;
+	margin: 30px auto 25px;
+	width: 896px;
+	border: 1px solid #e4e4e4;
+	font-family: sans-serif;
+	font-size: 11px;
+	line-height: 17px;
+	color: #666;
+	background-color: #222;
+	background-image: url(img/footer_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#footer #left {
+	padding: 22px 0 22px 130px;
+	text-align: left;
+	vertical-align: top;
+}
+#footer #right {
+	padding: 22px;
+	text-align: right;
+	vertical-align: top;
+	background-image: url(img/footer_rightbg.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+
+
+td#maincontent table#kontakt {
+	width: 896px;
+	background: white;
+	border: 1px solid #e4e4e4;
+	margin: 0 auto;
+}
+table#kontakt td.map {
+	text-align: left;
+	vertical-align: top;
+	padding: 15px 0 15px 15px;
+}
+table#kontakt td.map div.map iframe {
+	padding: 3px;
+	border: 1px solid #e5e5e5;
+}
+table#kontakt td.text {
+	text-align: left;
+	vertical-align: top;
+	width: 295px;
+}
+table#kontakt td.text .headtext {
+	height: 128px;
+	padding: 10px 0 6px;
+}
+
+
+
+td#maincontent table#personer {
+	width: 896px;
+	background: white;
+	border: 1px solid #e4e4e4;
+	margin: 0 auto;
+}
+table#personer td.text {
+	text-align: left;
+	vertical-align: top;
+	padding-bottom: 50px;
+}
+table#personer td.text .headtext {
+	height: 128px;
+	padding: 10px 0 6px;
+}
+
+
+
+td#maincontent table#personer_specifik {
+	width: 896px;
+	background: white;
+	border: 1px solid #e4e4e4;
+	margin: 0 auto;
+}
+table#personer_specifik td.text {
+	text-align: left;
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+table#personer_specifik td.text .headtext {
+	height: 128px;
+	padding: 10px 0 6px;
+}
+td.profilbillede {
+	text-align: right;
+	vertical-align: top;
+	padding: 15px 15px 5px 0;
+	width: 280px;
+}
+td.profilbillede img {
+	padding: 3px;
+	border: 1px solid #e5e5e5;
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+
+
